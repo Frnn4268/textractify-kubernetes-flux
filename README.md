@@ -71,7 +71,36 @@ Before getting started, ensure you have the following installed:
 
 After the configurations are set up, Flux will automatically monitor the Git repository for changes. To apply the initial configuration, run:
 ```bash
-kubectl apply -f clusters/textractify
+ 	kubectl apply -f clusters/textractify
    ```
 
 ## Verification
+
+1. Check Flux Status
+
+	Verify that Flux is functioning correctly by checking its status:
+
+	```bash
+flux get kustomizations
+    ```
+
+2. Check Pod Status
+
+Verify the status of the deployments and pods:
+
+	```bash
+kubectl get deployments
+kubectl get pods
+    ```
+
+3. Access the Services
+
+Forward the service ports to access the applications:
+
+	```bash
+kubectl port-forward svc/client 8080:80
+kubectl port-forward svc/server 3001:3000
+kubectl port-forward svc/textractify-client 3002:81
+    ```
+
+Feel free to adjust any sections to better fit your specific use case or add any additional information relevant to your project!
