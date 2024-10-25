@@ -27,9 +27,9 @@ Before getting started, ensure you have the following installed:
 	Clone the repository to your local machine:
 
 	```bash
-    git clone https://github.com/Frnn4268/textractify-kubernetes-flux.git
+ git clone https://github.com/Frnn4268/textractify-kubernetes-flux.git
 cd textractify-kubernetes-flux
-    ```
+    	```
 
 2. Create a Kind Cluster 
 
