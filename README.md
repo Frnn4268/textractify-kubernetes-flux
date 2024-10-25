@@ -9,7 +9,6 @@ This repository contains the setup for deploying the Textractify application usi
 - Configuration
 - Deployment
 - Verification
-- Troubleshooting
 
 ## Prerequisites
 
