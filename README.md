@@ -71,8 +71,8 @@ Before getting started, ensure you have the following installed:
 
 After the configurations are set up, Flux will automatically monitor the Git repository for changes. To apply the initial configuration, run:
 
-```bash
-	kubectl apply -f clusters/textractify
-```
+	```bash
+ kubectl apply -f clusters/textractify
+	```
 
 ## Verification
