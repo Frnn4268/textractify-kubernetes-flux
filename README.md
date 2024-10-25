@@ -45,11 +45,11 @@ Before getting started, ensure you have the following installed:
 
 	```bash
     flux bootstrap github \
-  	--owner="your_github_username" \
- 	 --repository=textractify-kubernetes-flux \
- 	 --branch=master \
- 	 --path=clusters/textractify \
- 	 --personal
+ 	--owner="your_github_username" \
+	--repository=textractify-kubernetes-flux \
+	--branch=master \
+	--path=clusters/textractify \
+	--personal
     ```
 
 4. Update Docker Images
