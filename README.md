@@ -86,7 +86,7 @@ kubectl apply -f clusters/textractify
 
 2. Check Pod Status
 
-Verify the status of the deployments and pods:
+	Verify the status of the deployments and pods:
 
 	```bash
 	kubectl get deployments
@@ -95,7 +95,7 @@ Verify the status of the deployments and pods:
 
 3. Access the Services
 
-Forward the service ports to access the applications:
+	Forward the service ports to access the applications:
 
 	```bash
 	kubectl port-forward svc/client 8080:80
