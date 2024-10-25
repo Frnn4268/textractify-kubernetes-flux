@@ -73,6 +73,6 @@ After the configurations are set up, Flux will automatically monitor the Git rep
 
 ```bash
 	kubectl apply -f clusters/textractify
-    ```
+```
 
 ## Verification
